@@ -3459,7 +3459,7 @@ jQuery.extend({
 		// Remember that the DOM is ready
 		jQuery.isReady = true;
 
-		// If a normal DOM Ready event fired, decrement, and wait if need be
+		// If a normal DOM Ready event fired, decrememt, and wait if need be
 		if ( wait !== true && --jQuery.readyWait > 0 ) {
 			return;
 		}
@@ -6547,7 +6547,7 @@ function setPositiveNumber( elem, value, subtract ) {
 
 function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {
 	var i = extra === ( isBorderBox ? "border" : "content" ) ?
-		// If we already have the right measurement, avoid augmentation
+		// If we already have the right measurememt, avoid augmentation
 		4 :
 		// Otherwise initialize for horizontal or vertical properties
 		name === "width" ? 1 : 0,
@@ -8538,8 +8538,8 @@ jQuery.parseJSON = function( data ) {
 		requireNonComma = open || comma;
 
 		// Determine new depth
-		// array/object open ("[" or "{"): depth += true - false (increment)
-		// array/object close ("]" or "}"): depth += false - true (decrement)
+		// array/object open ("[" or "{"): depth += true - false (incrememt)
+		// array/object close ("]" or "}"): depth += false - true (decrememt)
 		// other cases ("," or primitive): depth += true - true (numeric cast)
 		depth += !close - !open;
 

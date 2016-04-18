@@ -834,7 +834,7 @@ Terminal.prototype.bindMouse = function() {
     if (!pos) return;
 
     // buttons marked as motions
-    // are incremented by 32
+    // are incrememted by 32
     button += 32;
 
     sendEvent(button, pos);
@@ -999,7 +999,7 @@ Terminal.prototype.bindMouse = function() {
       mod = 0;
     }
 
-    // increment to SP
+    // incrememt to SP
     button = (32 + (mod << 2)) + button;
 
     return button;
@@ -4375,7 +4375,7 @@ Terminal.prototype.enableFilterRectangle = function(params) {
 //   if Ps is a "0" (default) or "1", and xterm is emulating VT100,
 //   the control sequence elicits a response of the same form whose
 //   parameters describe the terminal:
-//     Ps -> the given Ps incremented by 2.
+//     Ps -> the given Ps incrememted by 2.
 //     Pn = 1  <- no parity.
 //     Pn = 1  <- eight bits.
 //     Pn = 1  <- 2  8  transmit 38.4k baud.
