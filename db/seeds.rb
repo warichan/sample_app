@@ -17,3 +17,10 @@ User.create!(name: "Example User",
                activated: true,
                activated_at: Time.zone.now)
 end
+
+users = User.order(:created_at).take(6)
+#ユーザー毎にマイクロポストをまとめて作成してしまうと、ステータスフィードがすべて同じユーザーになってしまい、視覚的な見栄えが悪くなるのを防ぐ
+50.times do
+  content = Faker::Lorem.sentence(5)
+  users.each { |user| user.microposts.create!(content: content)}
+end
