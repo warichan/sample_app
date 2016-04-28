@@ -8026,37 +8026,37 @@ button.close {
 }
 /* mixins, variables, etc. */
 /* universal */
-/* line 10, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 16, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 body {
   padding-top: 60px;
 }
 
-/* line 14, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 20, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 section {
   overflow: auto;
 }
 
-/* line 18, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 24, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 22, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 28, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 .center {
   text-align: center;
 }
-/* line 24, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 30, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 .center h1 {
   margin-bottom: 10px;
 }
 
 /* typography */
-/* line 31, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 37, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-/* line 35, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 41, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -8064,7 +8064,7 @@ h1 {
   text-align: center;
 }
 
-/* line 42, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 48, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -8074,14 +8074,14 @@ h2 {
   color: #777777;
 }
 
-/* line 51, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 57, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
 /* header */
-/* line 59, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 65, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 #logo {
   float: left;
   margin-right: 10px;
@@ -8092,41 +8092,213 @@ p {
   padding-top: 9px;
   font-weight: bold;
 }
-/* line 68, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 74, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 #logo:hover {
   color: white;
   text-decoration: none;
 }
 
 /* footer */
-/* line 76, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 82, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777777;
 }
-/* line 81, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 87, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer a {
   color: #555555;
 }
-/* line 83, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 89, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer a:hover {
   color: #222222;
 }
-/* line 87, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 93, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
 }
-/* line 90, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 96, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
 }
-/* line 93, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+/* line 99, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+/*miscellaneous*/
+/* line 108, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*sidebar*/
+/* line 119, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside section.user_info {
+  margin-top: 20px;
+}
+/* line 122, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside section {
+  padding: 10px 0;
+  margin-top: 20px;
+}
+/* line 125, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside section:first-child {
+  border: 0;
+  padding-top: 0;
+}
+/* line 129, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside section span {
+  display: block;
+  margin-bottom: 3px;
+  line-height: 1;
+}
+/* line 134, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside section h1 {
+  font-size: 1.4em;
+  text-align: left;
+  letter-spacing: -1px;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+/* line 144, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 149, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+/*forms*/
+/* line 155, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 162, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+input {
+  height: auto !important;
+}
+
+/* line 166, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+#error_explanation {
+  color: red;
+}
+/* line 168, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+#error_explanation ul {
+  color: red;
+  margin: 0 0 30px 0;
+}
+
+/* line 174, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.field_with_errors {
+  @eztend .has-error;
+}
+/* line 176, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.field_with_errors .form-control {
+  color: #a94442;
+}
+
+/* line 181, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+/* line 184, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.checkbox span {
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+/* line 190, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+/*users index*/
+/* line 197, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.users {
+  list-style: none;
+  margin: 0;
+}
+/* line 200, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* microposts(各ユーザーのshow) */
+/* line 209, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts {
+  list-style: none;
+  padding: 0;
+}
+/* line 212, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts li {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+}
+/* line 216, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts .user {
+  margin-top: 5em;
+  padding-top: 0;
+}
+/* line 220, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts .content {
+  display: block;
+  margin-left: 60px;
+}
+/* line 223, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts .content img {
+  display: block;
+  padding: 5px 0;
+}
+/* line 228, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts .timestamp {
+  color: #777777;
+  display: block;
+  margin-left: 60px;
+}
+/* line 233, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+.microposts .gravatar {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* line 241, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+/* line 247, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+span.picture {
+  margin-top: 10px;
+}
+/* line 249, /Users/warichan/rails_tutorial/sample_app/app/assets/stylesheets/custom.css.scss */
+span.picture input {
+  border: 0;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
